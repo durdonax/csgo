@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1273px;
+}
+.bg {
+  background-color: #272c3d;
+  height: 70px;
+}
+.header {
+  display: flex;
+  gap: 25px;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+.lefth {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.ul1 {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  font-family: Quantico;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+  color: white;
+}
+a:hover{
+    color:  #FF9C28;
+}
+.input1 {
+  width: 241.87px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  background-color: #404864;
+}
+.righth {
+  display: flex;
+  gap: 40px;
+  height: 70px;
+  align-items: center;
+}
+.inpo {
+  position: relative;
+}
+.poisk {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  width: 28px;
+  height: 26px;
+}
+select {
+  width: 165px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+option {
+  font-family: Quantico;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20.02px;
+  text-align: left;
+}
+.black {
+  background-color: black;
+}
+.section-one {
+  width: 1273px;
+  height: 554px;
+  background-image: url(./Bg.png);
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Quantico;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45.76px;
+}
+.images {
+  height: 340px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.hover:hover {
+  cursor: pointer;
+}
+
+.section-three {
+  width: 1189px;
+  height: 928px;
+  background-color: #1b1e27;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  flex-wrap:nowrap;
+}
+h3 {
+    margin: 10px;
+  text-align: left;
+  font-family: Quantico;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34.32px;
+  text-align: left;
+  color: white;
+}
+.top {
+  width: 740px;
+  height: 298px;
+  margin: 61px;
+}
+.bottom {
+    width: 740px;
+    height: 298px;
+    margin: 61px;
+  }
+.it {
+  display: flex;
+  gap: 20px;
+}
+p {
+  color: #bfbfbf;
+  font-family: Quantico;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.02px;
+  text-align: left;
+}
+.footer{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
